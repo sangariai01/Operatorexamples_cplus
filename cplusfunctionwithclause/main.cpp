@@ -22,7 +22,7 @@ public:
     {
         int x , y;
             cin >> x >> y;
-            cout << "Multipication value is :" << (x*y) << endl;
+            cout << "Multiplication value is :" << (x*y) << endl;
     }
 
     void division();
