@@ -16,11 +16,11 @@ public:
         cout << "The given number is : " << a << endl;
         }
     }
-    ifelseprgrm(int a , int b)
+    ifelseprgrm(int a1)
     {
-        if(a<10 && b>20)
-        {
-            cout << "The number is : " << a << b << endl;
+        if(a1<10)
+        { ++a1;
+            cout << "The number is : " << a1 << endl;
         }
     }
 };
@@ -28,10 +28,10 @@ int main()
 {
     functionoverloading fol , fol1;
     fol.ifelseprgrm();
-    int a ,b;
+    int a1;
     cout << "Enter the a value " << endl;
-    cin >> a >> b;
-    fol1.ifelseprgrm(int a , int b);
+    cin >> a1;
+    fol1.ifelseprgrm(a1);
 
     return 0;
 }
